@@ -146,14 +146,14 @@ export function UndoDeleteFeedback(props) {
       autoHideDuration={4000}
       onClose={() => onCloseFeedback()}
     >
-      <Alert variant="filled" severity="warning">
+      <Alert variant="filled" severity="warning" onClick={() => undoDelete()}>
         <AlertTitle>
           <strong>Todo deleted!</strong>
         </AlertTitle>
         <Typography>
           You still can undo this action
           <IconButton onClick={() => undoDelete()}>
-            <UndoRoundedIcon />
+            <UndoRoundedIcon style={{ color: "white" }} />
           </IconButton>
         </Typography>
       </Alert>
