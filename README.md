@@ -7,3 +7,6 @@ Write a to-do then add it to your list of to-dos. You can track not only the num
 
 The logic and state management of this App is implemented using Redux.
 Components and the App view is mainly build on material-ui.
+
+
+#### [Click if you want to see a live version of the app](https://todo-using-redux-6cp18yeq3.vercel.app/)
